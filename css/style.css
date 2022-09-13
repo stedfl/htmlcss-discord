@@ -9,6 +9,9 @@
   border: 1px solid black;
 }
 
+body {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
 /* HEADER */
 
 /* header, main .jambotron, main .why-choose, footer {
@@ -36,14 +39,42 @@ header ul, footer ul {
   list-style: none;
 }
  
-
 header .menu ul {
   display: flex;
+  
+}
+
+a {
+  text-decoration: none;
+}
+
+header .menu a {
+  color: #f0f3fd;
+  font-weight: bold;
 }
 
 header .menu li {
-  padding-left: 15px;
+  padding-left: 50px;
+  
 }
+
+header .menu a:hover {
+  text-decoration: underline;
+  color: blue;
+}
+
+.button {
+  border-radius: 20px;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+ .button.login {
+  background-color: #f0f3fd;
+  color: black
+ }
 
 /* JUMBOTRON */
 .jumbotron {
