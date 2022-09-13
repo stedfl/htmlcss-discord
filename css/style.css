@@ -188,25 +188,56 @@ main .bottom-section .button.bottom-download {
 }
 
 /* FOOTER */
+footer {
+  background-color: #23272a;
+  color: #fefefe;
+}
 
 footer .footer-top.container {
   justify-content: space-between;
+}
+
+footer h3 {
+  font-size: 2rem;
 }
 
 footer .menu-section {
   display: flex;
   justify-content: space-evenly;
-  width: 70%;
+  width: 75%;
 }
 
 footer .contacts {
-  width: 30%;
+  width: 25%;
 }
 
 footer .footer-top.container {
-  background-color: green;
   display: flex;
   justify-content: space-between;
+  padding: 3rem 0;
+}
+
+.contacts :not(img) {
+  padding-bottom: 1.2rem ;
+}
+
+footer h3, footer h4 {
+  color: #7188d9 ;
+}
+
+footer .menu li, footer .menu h4,  .contacts span {
+  padding: 0.3rem 0;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+footer .contacts img {
+  width: 1.5rem;
+  vertical-align: middle;
+}
+
+.social * {
+  padding-right: 1rem;
 }
 
 
