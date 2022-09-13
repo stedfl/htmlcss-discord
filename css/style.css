@@ -41,7 +41,6 @@ header ul, footer ul {
  
 header .menu ul {
   display: flex;
-  
 }
 
 a {
@@ -63,39 +62,67 @@ header .menu a:hover {
   color: blue;
 }
 
-.button {
+a.button {
   border-radius: 20px;
-  padding: 10px;
   text-align: center;
   text-decoration: none;
-  font-weight: bold;
+  padding: 10px 30px;
 }
 
  .button.login {
   background-color: #f0f3fd;
-  color: black
+  color: black;
+  font-weight: bold;
+ 
  }
 
 /* JUMBOTRON */
 .jumbotron {
-  height: 550px;
+  height: 480px;
+  color: #ffffff;
+  background-image: url(../img/jumbo.png);
+  background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.content {
+  max-width: 800px;
   text-align: center;
 }
 
-.jumbotron .content {
-  max-width: 800px;
-}
 
 .jumbotron h1 {
-  padding-bottom: 30px;
+  font-size: 3rem;
+  padding-bottom: 3rem;
 }
 
 .jumbotron p {
-  padding-bottom: 15px;
+  line-height: 2rem;
+  padding-bottom: 2rem;
+  font-weight: bold;
 }
+
+.jumbotron i {
+  font-size: 16px;
+}
+
+.jumbotron .button {
+  font-size: 20px;
+ }
+
+ .button.download {
+  background-color: #f0f3fd;
+  color: black;
+  margin: 2rem;
+ }
+
+ .button.browse {
+  background-color:black;
+  color: #f0f3fd;
+ }
+
 
 /* MAIN */
 main {
