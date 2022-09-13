@@ -112,7 +112,7 @@ a.button {
   font-size: 20px;
  }
 
- .button.download {
+ .button.top-download {
   background-color: #f0f3fd;
   color: black;
   margin: 2rem;
@@ -138,12 +138,13 @@ section {
   padding: 8rem 0;
 }
 
-main .container .image {
-  width: 70%;
+main .top-section .image {
+  width: 60%;
 }
 
-main .container .description {
-  width: 30%;
+main .top-section .description {
+  width: 40%;
+  padding: 0 3rem;
 }
  
 main .special {
@@ -161,18 +162,32 @@ main .container p {
   line-height: 2rem;
 }
 
-main .container.bottom {
+main .bottom-section .container {
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
 }
 
+main .bottom-section .description {
+  text-align: center;
+  padding-bottom: 1.5rem;
+}
+
+.callto {
+  text-align: center;
+}
+
+main .bottom-section h3 {
+  font-size: 1.5rem;
+  margin-bottom: 2.5rem;
+}
+
+main .bottom-section .button.bottom-download {
+  color: #f0f3fd;
+  background-color: #8ea1e1;
+}
+
 /* FOOTER */
-/* footer {
-  background-color:greenyellow;
-  padding-top: 50px;
-  padding-bottom: 50px;
-} */
 
 footer .footer-top.container {
   justify-content: space-between;
