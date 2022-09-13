@@ -9,9 +9,6 @@ body {
 }
 /* HEADER */
 
-/* header, main .jambotron, main .why-choose, footer {
-  padding: 0 25%;
-} */
 header {
   height: 80px;
   background-color: #3161e0;
@@ -49,7 +46,6 @@ header .menu a {
 
 header .menu li {
   padding-left: 3rem;
-  
 }
 
 a:hover {
@@ -62,14 +58,14 @@ a:hover {
   text-decoration: none;
 }
 
- .button.sign {
+.button.sign {
   padding: 0.6rem;
- }
+}
 
- .button.sign.in {
+.button.sign.in {
   background-color: #f0f3fd;
   color: black;
- }
+}
 
 /* JUMBOTRON */
 .jumbotron {
@@ -108,18 +104,18 @@ a:hover {
   font-size: 1.2rem;
   padding: 1rem 1.5rem;
   font-weight: bold;
- }
+}
 
- .button.top.download {
+.button.top.download {
   background-color: #ffffff;
   color: black;
   margin: 2rem;
- }
+}
 
- .button.browse {
+.button.browse {
   background-color:black;
   color: #f0f3fd;
- }
+}
 
 /* MAIN */
 main {
@@ -133,7 +129,7 @@ main .container {
 }
 
 section {
-  padding: 8rem 0;
+  padding: 6rem 0;
 }
 
 main .top-section .image {
@@ -185,8 +181,25 @@ main .bottom-section h3 {
   background-color: #8ea1e1;
 }
 
+/* WAVES */
+.wave {
+  width: 100%;
+  height: 100px;
+  background-image: url(../img/wave.svg);
+  background-size: cover;
+}
+
+.wave.normal {
+  background-image: url(../img/wave.svg);
+}
+
+.wave.special {
+ background-image: url(../img/wavegrey.svg);
+}
+
+
 /* FOOTER */
-footer {
+footer, footer a {
   background-color: #23272a;
   color: #fefefe;
 }
@@ -199,8 +212,8 @@ footer .container {
 
 .footer-top.container {
   border-bottom: 0.1rem solid #7188d9 ;
-
 }
+
 footer .contacts {
   width: 25%;
 }
@@ -242,24 +255,3 @@ footer .button.sign.up {
   font-size: 0.8rem;
   font-weight: bold;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
