@@ -19,16 +19,19 @@ header {
   background-color: #3161e0;
 }
 
-header .container {
+.container {
   width: 90%;
   height: 100%;
   margin: 0 auto;
   max-width: 1200px;
+}
+
+header .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-
+ 
 header ul, footer ul {
   list-style: none;
 }
@@ -65,70 +68,47 @@ header .menu li {
 
 /* MAIN */
 main {
-  background-color: lightgray;
+  background-color:#ffffff;
+  padding-top: 50px;
 }
 
-
-
-/* FEATURES TOP SECTION*/
-main .features-top .why-choose {
+main .container {
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
-  padding-top:50px;
-  padding-bottom:50px;
 }
 
-main .features-top .why-choose.special {
-  flex-direction: row-reverse;
+section {
+  margin-bottom: 50px;
 }
 
-main .features-top .why-choose .frog-image {
-  background-color: red;
-  height: 300px;
-  width: 55%;
+main .container .image {
+  width: 60%;
 }
 
-main .features-top .why-choose .description {
-  width:35% ;
+main .container .description {
+  width: 40%;
+}
+ 
+main .special {
+  background-color: #f6f6f6;
 }
 
-/* FEATURES BOTTOM SECTION */
-main .features-bottom {
-  background-color: yellow;
-}
-
-main .features-bottom .frog-image {
-  height: 300px;
-  background-color: red;
-}
-
-main .features-bottom .description {
-  text-align: center;
-}
-
-main .features-bottom .why-choose {
-  padding-top: 50px;
-  padding-bottom: 50px;
-}
-main .features-bottom .why-choose h2 {
-  padding-bottom: 30px;
-}
-
-.features-bottom .last-call {
-  text-align: center;
+main .container.bottom {
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
 }
 
 /* FOOTER */
-footer {
+/* footer {
   background-color:greenyellow;
   padding-top: 50px;
   padding-bottom: 50px;
-}
+} */
 
-footer .top {
-  display: flex;
-  justify-content: space-between
+footer .footer-top.container {
+  justify-content: space-between;
 }
 
 footer .menu-section {
@@ -141,7 +121,7 @@ footer .contacts {
   width: 30%;
 }
 
-footer .bottom {
+footer .footer-top.container {
   background-color: green;
   display: flex;
   justify-content: space-between;
