@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* UTILITIES */
+.debug {
+  border: 1px solid black;
+}
+
+.description {
+  background-color: pink;
+}
+
+/* HEADER */
+
+header, main .jambotron, main .why-choose, footer {
+  padding: 0 25%;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #3161e0;
+  height: 80px;
+}
+
+header ul, footer ul {
+  list-style: none;
+}
+ 
+
+header .menu ul {
+  display: flex;
+}
+
+header .menu li {
+  padding-left: 15px;
+}
+
+/* MAIN */
+main {
+  background-color: lightgray;
+}
+
+/* JAMBOTRON */
+main .jambotron {
+  /* color: white; */
+  text-align: center;
+  padding: 50px 25%;
+}
+
+main .jambotron h1 {
+  padding-bottom: 30px;
+}
+
+main .jambotron p {
+  padding-bottom: 15px;
+}
+
+/* FEATURES TOP SECTION*/
+main .features-top .why-choose {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding-top:50px;
+  padding-bottom:50px;
+}
+
+main .features-top .why-choose.special {
+  flex-direction: row-reverse;
+}
+
+main .features-top .why-choose .frog-image {
+  background-color: red;
+  height: 300px;
+  width: 55%;
+}
+
+main .features-top .why-choose .description {
+  width:35% ;
+}
+
+/* FEATURES BOTTOM SECTION */
+main .features-bottom {
+  background-color: yellow;
+}
+
+main .features-bottom .frog-image {
+  height: 300px;
+  background-color: red;
+}
+
+main .features-bottom .description {
+  text-align: center;
+}
+
+main .features-bottom .why-choose {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+main .features-bottom .why-choose h2 {
+  padding-bottom: 30px;
+}
+
+.features-bottom .last-call {
+  text-align: center;
+}
+
+/* FOOTER */
+footer {
+  background-color:greenyellow;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+footer .top {
+  display: flex;
+  justify-content: space-between
+}
+
+footer .menu-section {
+  display: flex;
+  justify-content: space-evenly;
+  width: 70%;
+}
+
+footer .contacts {
+  width: 30%;
+}
+
+footer .bottom {
+  background-color: green;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
